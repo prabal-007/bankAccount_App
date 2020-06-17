@@ -3,12 +3,12 @@ package bankaccount_app;
 public abstract class Account implements interestRate{
 	// list common properties for savings and checking accounts
 	
-	String name;
-	String sSN;
-	String accountNumber;
-	static int index = 10000;
-	double balance;
-	double rate;
+	private String name;
+	private String sSN;
+	protected String accountNumber;
+	private static int index = 10000;
+	private double balance;
+	protected double rate;
 	
 	
 	// Constructor to set base properties & initialize the account
