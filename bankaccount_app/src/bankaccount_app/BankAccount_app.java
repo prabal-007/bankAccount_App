@@ -27,7 +27,7 @@ public class BankAccount_app {
 		
 		// Reads CSV file then creates new account based on that data
 		
-		String file = "//root/Documents//java_projects//New_bank_Account_app//docs//original.csv"; 
+		String file = "******//***************//**************/bankfile.csv";           // .csv file path 
 		
 		
 			
