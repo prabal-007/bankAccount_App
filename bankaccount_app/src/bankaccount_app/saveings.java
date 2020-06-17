@@ -4,8 +4,8 @@ public class saveings extends Account{
 	
 	// list properties specific to saving account
 	
-	int safetyDepositBoxKey;
-	int safetyDepositBoxID;
+	private int safetyDepositBoxKey;
+	private int safetyDepositBoxID;
 	
 	// constructor to initialize settings of the savings account
 	public saveings(String name,  String sSN, double initDeposit) {
